@@ -60,7 +60,7 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
 ## Public Data
 
- The foler `public_data` contains the data and code of [CC-SOCR](https://doi.org/10.1038/s41467-023-38898-4) [1] and [3D-RSD](https://github.com/ArianaGu/3D-RSD) [2].
+ The foler `public_data` contains the data and code of [CC-SOCR](https://doi.org/10.1038/s41467-023-38898-4) [1] and [3D-RSD](https://github.com/ArianaGu/3D-RSD) [2]. To run their codes, one should install MATLAB.
 
 # References
 

@@ -10,7 +10,7 @@ import sys
 from utils.ParseArgs import parse_args
 from utils.write_ply import write_ply
 import time
-from utils.show_result import show, show_vol
+from utils.show_result import show_vol
 
 ##### define and load parameters #####
 write_3D_point_cloud = 1

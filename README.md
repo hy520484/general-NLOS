@@ -48,7 +48,7 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
  + `N_voxel_s` and `N_voxel_t`: The number of voxels of the hidden space is `N_voxel_s` * `N_voxel_s` * `N_voxel_t`.
 
- + `x_range0`, ..., `z_range1`: The range of the hidden space.
+ + `x_range0`, ..., `z_range1`: Define the range of the recontructed 3D volume.
 
  + `sigma`: Another tunable parameter that controls the filters. If not specified, its default value is 0.23.
 
@@ -56,11 +56,11 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
 ## Experimental Data
 
- The experimental data captured by our system are in the folder `experimental_data`. The folder `tuan` contains the data of NLOS imaging with irregular scanning pattern, and the folder `wall` contains the data of NLOS imaging with non-planar relay wall.
+ The experimental data captured by our system are in the folder `experimental_data`. The subfolder `tuan` contains the data of NLOS imaging with irregular scanning pattern, and the subfolder `wall` contains the data of NLOS imaging with non-planar relay wall.
 
 ## Public Data
 
- The foler `public_data` contains the data and code of [CC-SOCR](https://doi.org/10.1038/s41467-023-38898-4) [1] and [3D-RSD](https://github.com/ArianaGu/3D-RSD) [2]. To run their codes, one should install MATLAB.
+ The folder `public_data` contains the data and code of [CC-SOCR](https://doi.org/10.1038/s41467-023-38898-4) [1] and [3D-RSD](https://github.com/ArianaGu/3D-RSD) [2]. To run their codes, one should first install MATLAB.
 
 # References
 

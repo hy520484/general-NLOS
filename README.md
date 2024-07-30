@@ -38,7 +38,7 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
  + `path_setup`: The path to the NLOS setup, which contains the 3D coordinates of laser points and detection points.
 
- + `width`: A tunable parameter that control the filters.
+ + `width`: A tunable parameter that controls the filters.
 
  + `N_ld`: A total of `N_ld` * `N_ld` pairs of laser point and detection point.
 
@@ -50,7 +50,7 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
  + `x_range0`, ..., `z_range1`: The range of the hidden space.
 
- + `sigma`: Another tunable parameter that control the filters. If not specified, its default value is 0.23.
+ + `sigma`: Another tunable parameter that controls the filters. If not specified, its default value is 0.23.
 
  + `th`: A threshold that helps displaying a better reconstructed result (please refer to the function `simple_denoise()` in `utils/show_result.py` for further details). If not specified, its default value is 0.
 

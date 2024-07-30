@@ -52,7 +52,7 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
  + `sigma`: Another tunable parameter that control the filters. If not specified, its default value is 0.23.
 
- + `th`: A threshold that helps displaying a better reconstructed result (please refer to the function `simple_denoise()` in `utils/show_result.py`. If not specified, its default value is 0.
+ + `th`: A threshold that helps displaying a better reconstructed result (please refer to the function `simple_denoise()` in `utils/show_result.py` for further details). If not specified, its default value is 0.
 
 ## Experimental Data
 

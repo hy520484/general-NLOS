@@ -26,7 +26,7 @@ The code has been tested in the following environments. Other reasonable environ
 
 # Quick Start
 
-Please first ensure the software requirements (VS, CUDA, Python, pycuda) are satisfied. Then choose one config file in `reconstruct.py` and run.
+Please first ensure the software requirements (VS, CUDA, Python, pycuda) are satisfied. Then run `reconstruct.py` after choosing one config file in Line 19 ~ 31.
 
 # File Description
 

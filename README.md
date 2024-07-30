@@ -52,6 +52,8 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
  + `sigma`: Another tunable parameter that control the filters. If not specified, its default value is 0.23.
 
+ + `th`: A threshold that helps displaying a better reconstructed result (please refer to the function `simple_denoise()` in `utils/show_result.py`. If not specified, its default value is 0.
+
 ## Experimental Data
 
  The experimental data captured by our system are in the folder `experimental_data`. The folder `tuan` contains the data of NLOS imaging with irregular scanning pattern, and the folder `wall` contains the data of NLOS imaging with non-planar relay wall.

@@ -1,6 +1,6 @@
 # General NLOS
 
-This repository contains the code and data for the paper **"Fast Non-line-of-sight Imaging with an Arbitrary Scanning Setup"**.
+This repository contains the code and data for the paper **"Fast Non-line-of-sight Imaging with an Arbitrary Scanning Pattern"**.
 
 # Environment Requirements
 
@@ -40,13 +40,13 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
  + `width`: A tunable parameter that controls the filters.
 
- + `N_ld`: A total of `N_ld` * `N_ld` pairs of laser point and detection point.
+ + `N_ld`: There are a total of `N_ld` * `N_ld` pairs of laser point and detection point.
 
- + `N_bin`: The number of time bins of the NLOS measurments. The size of the NLOS measurements should be `N_ld` * `N_ld` * `N_bin`.
+ + `N_bin`: The number of time bins of the NLOS measurments. The shape of the NLOS measurements should be `N_ld` * `N_ld` * `N_bin`.
 
  + `timeRes`: The time resolution of the NLOS measurements.
 
- + `N_voxel_s` and `N_voxel_t`: The number of voxels of the hidden space is `N_voxel_s` * `N_voxel_s` * `N_voxel_t`.
+ + `N_voxel_s` and `N_voxel_t`: The number of voxels of the recontructed 3D volume is `N_voxel_s` * `N_voxel_s` * `N_voxel_t`.
 
  + `x_range0`, ..., `z_range1`: Define the range of the recontructed 3D volume.
 
@@ -56,7 +56,7 @@ Please first ensure the software requirements (VS, CUDA, Python, pycuda) are sat
 
 ## Experimental Data
 
- The experimental data captured by our system are in the folder `experimental_data`. The subfolder `tuan` contains the data of NLOS imaging with irregular scanning pattern, and the subfolder `wall` contains the data of NLOS imaging with non-planar relay wall.
+ The experimental data captured by our system are in the folder `experimental_data`. The subfolder `tuan` contains the data of NLOS imaging with an irregular scanning pattern, and the subfolder `wall` contains the data of NLOS imaging with a non-planar relay wall.
 
 ## Public Data
 

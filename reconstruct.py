@@ -16,19 +16,19 @@ from utils.show_result import show_vol
 write_3D_point_cloud = 1
 
 # choose one config file
-args = parse_args('./config/config_0527_tuan.ini')							### Fig. 3
-# args = parse_args('./config/config_0527_wall.ini')							### Fig. 4
+args = parse_args('./config/config_0527_tuan.ini')							### Fig. 3 (d)
+# args = parse_args('./config/config_0527_wall.ini')							### Fig. 3 (g)
 # args = parse_args('./config/CC-SOCR/config_bunny_full.ini')
-# args = parse_args('./config/CC-SOCR/config_bunny_sticks.ini')					### Fig. 5
+# args = parse_args('./config/CC-SOCR/config_bunny_sticks.ini')					### Fig. 4
 # args = parse_args('./config/CC-SOCR/config_bunny_window.ini')
-# args = parse_args('./config/CC-SOCR/config_non_planar_letters_NT_full.ini')	### Fig. 5
-# args = parse_args('./config/CC-SOCR/config_statue_NLOS.ini')					### Fig. 5
+# args = parse_args('./config/CC-SOCR/config_non_planar_letters_NT_full.ini')	### Fig. 4
+# args = parse_args('./config/CC-SOCR/config_statue_NLOS.ini')					### Fig. 4
 # args = parse_args('./config/CC-SOCR/config_statue_sticks.ini')
-# args = parse_args('./config/CC-SOCR/config_figure_4_random.ini')				### Fig. 5
-# args = parse_args('./config/3D-RSD/config_data_0.ini')						### Fig. 6
-# args = parse_args('./config/3D-RSD/config_data_2.ini')						### Fig. 6
-# args = parse_args('./config/3D-RSD/config_data_6.ini')						### Fig. 6
-# args = parse_args('./config/3D-RSD/config_data_10.ini')						### Fig. 6
+# args = parse_args('./config/CC-SOCR/config_figure_4_random.ini')				### Fig. 4
+# args = parse_args('./config/3D-RSD/config_data_0.ini')						### Fig. 5
+# args = parse_args('./config/3D-RSD/config_data_2.ini')						### Fig. 5
+# args = parse_args('./config/3D-RSD/config_data_6.ini')						### Fig. 5
+# args = parse_args('./config/3D-RSD/config_data_10.ini')						### Fig. 5
 
 N_ld = args['N_ld']
 N_bin = args['N_bin']

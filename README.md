@@ -1,6 +1,6 @@
 # General NLOS
 
-This repository contains the code and data for the paper **"Fast Non-line-of-sight Imaging with an Arbitrary Scanning Pattern"**.
+This repository contains the code and data for the paper **"Fast Non-line-of-sight Imaging with Arbitrary Scanning Patterns"**.
 
 # Environment Requirements
 
